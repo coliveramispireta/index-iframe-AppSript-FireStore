@@ -17,7 +17,7 @@ Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu sistema. Ad
 2. ejecuta en la terminal:
         ```bash
             npm install
-        ```bash
+        ```
 3. Configura tu Aplicación de AppScript para manejar las solicitudes HTTP y autenticar usuarios mediante parámetros en la URL.
 4. Crea un archivo .env en la raíz del proyecto y configura las variables de entorno según los datos proporcionados por Firestore:
    ```bash
@@ -28,16 +28,14 @@ Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu sistema. Ad
     FIREBASE_MESSAGING_SENDER_ID=tu_messaging_sender_id
     FIREBASE_APP_ID=tu_app_id
     FIREBASE_MEASUREMENT_ID=tu_measurement_id
-   ```bash
-6. En el mismo archivo .env añade variables de entorno con las URL proporcionadas por Google Apps Script:
+   ```
+5. En el mismo archivo .env añade variables de entorno con las URL proporcionadas por Google Apps Script:
    ```bash
     URL_APP=tu_url_appscript
     URL_LOGIN=tu_url_login_appscript
-   ```bash
-8. Reemplaza las rutas URL de los Iframes con las rutas de tus implementaciones AppScript o agrega mas rutas a la función si es necesario. ( en este caso solo le he creado dos apps en appScript uno q maneja la logica de autenticacion del login y otra que es el home del aplicativo)
-    const urlApp = `tu_URL`;
-    const urlLogin = `tu_URL`;
-9. Modifica el title del aplicativo.
+   ```
+
+6. Modifica el title del aplicativo.
 
 ## Uso
 
