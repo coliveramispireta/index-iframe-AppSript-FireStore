@@ -15,9 +15,9 @@ Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu sistema. Ad
 
 1. Clona este repositorio en tu máquina local o en el servidor de hosting.
 2. ejecuta en la terminal:
-        ```bash
-            npm install
-        ```
+   ```bash
+   npm install
+    ```
 3. Configura tu Aplicación de AppScript para manejar las solicitudes HTTP y autenticar usuarios mediante parámetros en la URL.
 4. Crea un archivo .env en la raíz del proyecto y configura las variables de entorno según los datos proporcionados por Firestore:
    ```bash
