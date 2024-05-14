@@ -4,7 +4,7 @@ Este repositorio contiene el código de un manejador de vistas para una aplicaci
 
 ## Descripción
 
-El archivo `index.html` es parte de una aplicación desarrollada en Google Apps Script y sirve como un manejador de vistas que permite la visualización de diferentes secciones o páginas de la aplicación a través de iframes. La autenticación del usuario se realiza mediante parámetros incluidos en la URL de la solicitud HTTP.
+Este proyecto es parte de una aplicación desarrollada en Google Apps Script y sirve como un manejador de vistas que permite la visualización de diferentes secciones o páginas de la aplicación a través de iframes. La autenticación del usuario se realiza mediante parámetros incluidos en la URL de la solicitud HTTP.
 Para evitar los anuncios de Google sobre el creador de la aplicación, es posible desplegar este archivo en un servidor local o en un servicio de hosting. Al acceder a la aplicación a través de un servidor externo, se evita la aparición de mensajes como "Esta aplicación la ha creado un usuario de Google Apps Script".
 
 ## Requisitos Previos
